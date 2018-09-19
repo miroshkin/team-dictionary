@@ -22,6 +22,12 @@ namespace team_dictionary.Controllers
 
         public IActionResult Search()
         {
+            Dictionary<string, string> dictionary = new Dictionary<string, string>();
+            dictionary.Add("Supplier", "Поставщик");
+            dictionary.Add("Поставщик", "Supplier");
+            
+            
+
             return View();
         }
     }
