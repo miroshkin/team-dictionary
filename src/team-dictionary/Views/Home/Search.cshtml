@@ -3,20 +3,30 @@
     ViewData["Title"] = "SearchView";
 }
 
-
 <div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <input type="text" />
-        <input type="button" value="Search" onclick="location.href='@Url.Action("Search", "Home")'" />
-        <h2>Results</h2>
+    <div class="col-md-6">
+        <div id="custom-search-input">
+            <div class="input-group col-md-12">
+                <input type="text" class="form-control input-lg" placeholder="Введите термин для поиска ..." />
+                <span class="input-group-btn">
+                    <button class="btn btn-info btn-lg" type="button" onclick="location.href='@Url.Action("Search", "Home")'">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
 
+        <h3>Search results for supplier</h3>
         <ul>
-            <li>la la la</li>
-            <li>bla bla bla</li>
+            <li>Поставщик</li>
+            <li>Провайдер</li>
+            <li>Контрагент</li>
         </ul>
     </div>
 </div>
+
+
+
 
 
 
