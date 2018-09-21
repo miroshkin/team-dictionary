@@ -25,10 +25,12 @@ namespace team_dictionary.Controllers
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             dictionary.Add("Supplier", "Поставщик");
             dictionary.Add("Поставщик", "Supplier");
-            
-            
+            dictionary.Add("collation statement", "сличительная ведомость");
+            dictionary.Add("сличительная ведомость","collation statement");
 
-            return View();
+
+
+            return View(dictionary);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿
+﻿@model Dictionary<string,string>
+
 @{
     ViewData["Title"] = "SearchView";
 }
@@ -19,9 +20,10 @@
 
         <h3>Search results for supplier</h3>
         <ul>
-            <li>Поставщик</li>
-            <li>Провайдер</li>
-            <li>Контрагент</li>
+            @foreach (var entry in Model)
+            {
+              <li>@entry.Value + " - " @entry.Key </li>
+            }
         </ul>
     </div>
 </div>
