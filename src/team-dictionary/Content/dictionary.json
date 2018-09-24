@@ -1,0 +1,14 @@
+﻿[
+  {
+    "Name": "поставщик",
+    "Translation": "supplier"
+  },
+  {
+    "Name": "клиент",
+    "Translation": "client"
+  },
+  {
+    "Name": "покупатель",
+    "Translation": "buyer"
+  }
+]
