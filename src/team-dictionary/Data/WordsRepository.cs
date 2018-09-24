@@ -16,7 +16,7 @@ namespace team_dictionary.Data
             entries.Add(new Word("контрагент", "contragent"));
             entries.Add(new Word("проводка", "provodka"));
             entries.Add(new Word("списание", "decommission"));
-
+            entries.Add(new Word("сличительная ведомость", "collation statement"));
             return entries;
 
         }
