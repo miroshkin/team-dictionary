@@ -35,8 +35,11 @@ namespace team_dictionary.Controllers
             }
             else
             {
-                model.SearchResult = _wordsRepository.GetWords()
-                    .Where(c => c.Name.Contains(searchString) | c.Translation.Contains(searchString));
+                model.SearchResult = 
+                    _wordsRepository.GetWords()
+                    .Where(c => 
+                         c.Name.ToUpper().Contains(searchString.ToUpper()) |
+                         c.Translation.ToUpper().Contains(searchString.ToUpper()));
             }
 
             return View(model);
