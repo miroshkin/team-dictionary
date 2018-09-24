@@ -19,28 +19,28 @@
                         </button>
                     </span>
                 </div>
-
+                <br />
                 @if (Model != null)
-                {
-                    if (Model.SearchResult.Any())
-                    {
-                        <ul class="list-group list-group-flush">
-                            @foreach (var word in Model.SearchResult)
-                            {
-                                <li class="list-group-item">
-                                    @word.Name - @word.Translation
-                                </li>
-                            }
-                        </ul>
-                    }
-                    else
-                    {
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">по запросу "@Model.SearchString" ничего не найдено</li>
-                        </ul>
-                    }
-                }
-                
+    {
+        if (Model.SearchResult.Any())
+        {
+            <ul class="list-group list-group-flush">
+                @foreach (var word in Model.SearchResult)
+    {
+            <li class="list-group-item">
+                @word.Name - @word.Translation
+            </li>
+}
+            </ul>
+}
+else
+{
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">по запросу "@Model.SearchString" ничего не найдено</li>
+            </ul>
+}
+}
+
             </div>
         </div>
     </div>
