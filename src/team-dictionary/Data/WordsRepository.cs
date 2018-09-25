@@ -39,6 +39,7 @@ namespace team_dictionary.Data
             entries.Add(new Word("инвойс", "invoice"));
             entries.Add(new Word("таможня", "customs"));
             entries.Add(new Word("договор", "контракты"));
+            entries.Add(new Word("приказ", "order"));
 
 
 
