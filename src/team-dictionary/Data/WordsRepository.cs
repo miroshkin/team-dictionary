@@ -39,7 +39,7 @@ namespace team_dictionary.Data
             list.Add(new Word("контрафакт", "counterfeit"));
             list.Add(new Word("инвойс", "invoice"));
             list.Add(new Word("таможня", "customs"));
-            list.Add(new Word("договор", "контракты"));
+            list.Add(new Word("процент", "percent"));
             list.Add(new Word("приказ", "order"));
             list.Add(new Word("распоряжение", "directive"));
             list.Add(new Word("инвентаризация", "inventory"));
