@@ -10,41 +10,42 @@ namespace team_dictionary.Data
     {
         public List<Word> GetWords()
         {
-            var entries = new List<Word>();
-            entries.Add(new Word("поставщик", "supplier"));
-            entries.Add(new Word("клиент", "customer"));
-            entries.Add(new Word("контрагент", "contragent"));
-            entries.Add(new Word("проводка", "provodka"));
-            entries.Add(new Word("списание", "decommission"));
-            entries.Add(new Word("сличительная ведомость", "collation statement"));
-            entries.Add(new Word("счет", "account"));
-            entries.Add(new Word("детализация", "details"));
-            entries.Add(new Word("документ", "document"));
-            entries.Add(new Word("платеж", "payment"));
-            entries.Add(new Word("сверка", "sverka"));
-            entries.Add(new Word("требование", "trebovanie"));
-            entries.Add(new Word("возврат", "return"));
-            entries.Add(new Word("расписание", "schedule"));
-            entries.Add(new Word("склад", "warehouse"));
-            entries.Add(new Word("жалоба", "complaint"));
-            entries.Add(new Word("вес", "weight"));
-            entries.Add(new Word("объем", "volume"));
-            entries.Add(new Word("страна", "country"));
-            entries.Add(new Word("отчет", "report"));
-            entries.Add(new Word("план", "plan"));
-            entries.Add(new Word("транспортная компания", "transport company"));
-            entries.Add(new Word("безопасность", "security"));
-            entries.Add(new Word("контрафакт", "contrafact"));
-            entries.Add(new Word("контрафакт", "counterfeit"));
-            entries.Add(new Word("инвойс", "invoice"));
-            entries.Add(new Word("таможня", "customs"));
-            entries.Add(new Word("договор", "контракты"));
-            entries.Add(new Word("приказ", "order"));
+            var list = new List<Word>();
 
+            list.Add(new Word("поставщик", "supplier"));
+            list.Add(new Word("клиент", "customer"));
+            list.Add(new Word("контрагент", "contragent"));
+            list.Add(new Word("проводка", "provodka"));
+            list.Add(new Word("списание", "decommission"));
+            list.Add(new Word("сличительная ведомость", "collation statement"));
+            list.Add(new Word("счет", "account"));
+            list.Add(new Word("детализация", "details"));
+            list.Add(new Word("документ", "document"));
+            list.Add(new Word("платеж", "payment"));
+            list.Add(new Word("сверка", "sverka"));
+            list.Add(new Word("требование", "trebovanie"));
+            list.Add(new Word("возврат", "return"));
+            list.Add(new Word("расписание", "schedule"));
+            list.Add(new Word("склад", "warehouse"));
+            list.Add(new Word("жалоба", "complaint"));
+            list.Add(new Word("вес", "weight"));
+            list.Add(new Word("объем", "volume"));
+            list.Add(new Word("страна", "country"));
+            list.Add(new Word("отчет", "report"));
+            list.Add(new Word("план", "plan"));
+            list.Add(new Word("транспортная компания", "transport company"));
+            list.Add(new Word("безопасность", "security"));
+            list.Add(new Word("контрафакт", "contrafact"));
+            list.Add(new Word("контрафакт", "counterfeit"));
+            list.Add(new Word("инвойс", "invoice"));
+            list.Add(new Word("таможня", "customs"));
+            list.Add(new Word("договор", "контракты"));
+            list.Add(new Word("приказ", "order"));
+            list.Add(new Word("распоряжение", "directive"));
+            list.Add(new Word("инвентаризация", "inventory"));
+            list.Add(new Word("утилизация", "utilization"));
 
-
-
-            return entries;
+            return list;
 
         }
     }
