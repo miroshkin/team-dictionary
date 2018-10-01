@@ -44,6 +44,11 @@ namespace team_dictionary.Data
             list.Add(new Word("распоряжение", "directive"));
             list.Add(new Word("инвентаризация", "inventory"));
             list.Add(new Word("утилизация", "utilization"));
+            list.Add(new Word("заявитель", "issuer"));
+            list.Add(new Word("исполнитель", "executor"));
+            list.Add(new Word("наблюдатель", "observer"));
+            list.Add(new Word("заявка", "ticket"));
+
 
             return list;
 
