@@ -1,14 +1,148 @@
-﻿[
-  {
-    "Name": "поставщик",
-    "Translation": "supplier"
-  },
-  {
-    "Name": "клиент",
-    "Translation": "client"
-  },
-  {
-    "Name": "покупатель",
-    "Translation": "buyer"
-  }
-]
+﻿{
+  "Words": [
+    {
+      "Name": "поставщик",
+      "Translation": "supplier"
+    },
+    {
+      "Name": "клиент",
+      "Translation": "client"
+    },
+    {
+      "Name": "контрагент",
+      "Translation": "contragent"
+    },
+    {
+      "Name": "проводка",
+      "Translation": "provodka"
+    },
+    {
+      "Name": "списание",
+      "Translation": "decommission"
+    },
+    {
+      "Name": "сличительная ведомость",
+      "Translation": "collation statement"
+    },
+    {
+      "Name": "счет",
+      "Translation": "account"
+    },
+    {
+      "Name": "детализация",
+      "Translation": "details"
+    },
+    {
+      "Name": "документ",
+      "Translation": "document"
+    },
+    {
+      "Name": "платеж",
+      "Translation": "payment"
+    },
+    {
+      "Name": "сверка",
+      "Translation": "sverka"
+    },
+    {
+      "Name": "требование",
+      "Translation": "trebovanie"
+    },
+    {
+      "Name": "возврат",
+      "Translation": "return"
+    },
+    {
+      "Name": "расписание",
+      "Translation": "schedule"
+    },
+    {
+      "Name": "склад",
+      "Translation": "warehouse"
+    },
+    {
+      "Name": "жалоба",
+      "Translation": "complaint"
+    },
+    {
+      "Name": "вес",
+      "Translation": "weight"
+    },
+    {
+      "Name": "объем",
+      "Translation": "volume"
+    },
+    {
+      "Name": "страна",
+      "Translation": "country"
+    },
+    {
+      "Name": "отчет",
+      "Translation": "report"
+    },
+    {
+      "Name": "план",
+      "Translation": "plan"
+    },
+    {
+      "Name": "транспортная компания",
+      "Translation": "transport company"
+    },
+    {
+      "Name": "безопасность",
+      "Translation": "security"
+    },
+    {
+      "Name": "контрафакт",
+      "Translation": "contrafact"
+    },
+    {
+      "Name": "контрафакт",
+      "Translation": "counterfeit"
+    },
+    {
+      "Name": "инвойс",
+      "Translation": "invoice"
+    },
+    {
+      "Name": "таможня",
+      "Translation": "customs"
+    },
+    {
+      "Name": "процент",
+      "Translation": "percent"
+    },
+    {
+      "Name": "приказ",
+      "Translation": "order"
+    },
+    {
+      "Name": "распоряжение",
+      "Translation": "directive"
+    },
+    {
+      "Name": "инвентаризация",
+      "Translation": "inventory"
+    },
+    {
+      "Name": "утилизация",
+      "Translation": "utilization"
+    },
+    {
+      "Name": "заявитель",
+      "Translation": "issuer"
+    },
+    {
+      "Name": "исполнитель",
+      "Translation": "executor"
+    },
+    {
+      "Name": "наблюдатель",
+      "Translation": "observer"
+    },
+    {
+      "Name": "заявка", 
+      "Translation": "ticket"
+    }
+  ]
+}
