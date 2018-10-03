@@ -46,11 +46,11 @@ namespace team_dictionary.Controllers
             }
             else
             {
-                model.SearchResult = 
+                model.SearchResult =
                     _wordsRepository.GetWords()
-                    .Where(c => 
-                         c.Name.ToUpper().Contains(searchString.ToUpper()) |
-                         c.Translation.ToUpper().Contains(searchString.ToUpper()));
+                        .Where(c =>
+                            c.Name.ToUpper().Contains(searchString.ToUpper()));
+
             }
 
             return View(model);
