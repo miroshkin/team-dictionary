@@ -194,6 +194,9 @@
   {
     "Name": "заголовок",
     "Translation": "header"
+  },
+  {
+    "Name": "оптовик",
+    "Translation": "wholesaler"
   }
-
 ]
