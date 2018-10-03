@@ -29,7 +29,6 @@ namespace team_dictionary.Controllers
         public IActionResult Index()
         {
             SearchModel sm = new SearchModel();
-           
             return View();
         }
 
@@ -37,8 +36,6 @@ namespace team_dictionary.Controllers
         public IActionResult Index(SearchModel model)
         {
             var searchString = model.SearchString;
-
-            
 
             if (String.IsNullOrEmpty(model.SearchString))
             {
@@ -50,7 +47,6 @@ namespace team_dictionary.Controllers
                     _wordsRepository.GetWords()
                         .Where(c =>
                             c.Name.ToUpper().Contains(searchString.ToUpper()));
-
             }
 
             return View(model);

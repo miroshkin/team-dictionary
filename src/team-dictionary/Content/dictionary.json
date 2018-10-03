@@ -198,5 +198,9 @@
   {
     "Name": "оптовик",
     "Translation": "wholesaler"
+  },
+  {
+    "Name": "номенклатура",
+    "Translation": "assortment"
   }
 ]
