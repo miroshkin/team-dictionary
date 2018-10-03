@@ -154,5 +154,13 @@
   {
     "Name": "группа",
     "Translation": "group"
+  },
+  {
+    "Name": "списание",
+    "Translation": "decommissioning"
+  },
+  {
+    "Name": "клиент",
+    "Translation": "customer"
   }
 ]
