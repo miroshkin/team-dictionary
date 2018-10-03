@@ -142,5 +142,9 @@
   {
     "Name": "заявка",
     "Translation": "ticket"
+  },
+  {
+    "Name": "бухгалтерия",
+    "Translation": "account department"
   }
 ]
