@@ -162,5 +162,38 @@
   {
     "Name": "клиент",
     "Translation": "customer"
+  },
+  {
+    "Name": "покупатель",
+    "Translation": "buyer"
+  },
+  {
+    "Name": "продавец",
+    "Translation": "seller"
+  },
+  {
+    "Name": "юридический адрес",
+    "Translation": "legal address"
+  },
+  {
+    "Name": "адрес",
+    "Translation": "address"
+  },
+  {
+    "Name": "грузоотправитель",
+    "Translation": "consigner"
+  },
+  {
+    "Name": "грузополучатель",
+    "Translation": "consignee"
+  },
+  {
+    "Name": "электронная почта",
+    "Translation": "email"
+  },
+  {
+    "Name": "заголовок",
+    "Translation": "header"
   }
+
 ]
