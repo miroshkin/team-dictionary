@@ -146,5 +146,9 @@
   {
     "Name": "бухгалтерия",
     "Translation": "account department"
+  },
+  {
+    "Name": "сумма",
+    "Translation": "sum"
   }
 ]
