@@ -39,7 +39,7 @@ namespace team_dictionary.Controllers
 
             if (String.IsNullOrEmpty(model.SearchString))
             {
-                model.SearchResult = _wordsRepository.GetWords();
+                model.SearchResult = new Word[0];
             }
             else
             {
