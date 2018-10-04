@@ -41,16 +41,20 @@
 
     </div>
 </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <footer>
-            <div>
-                Team Dictionary by <a href="https://miroshkin.github.com" target="_blank">Anton Miroshkin</a>
-            </div>
-        </footer>
+<div class="container body-content">
+    @RenderBody()
+    
+</div>
+    
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">Team Dictionary by <a href="https://miroshkin.github.com" target="_blank">Anton Miroshkin</a></span>
     </div>
+</footer>
 
-    <environment include="Development">
+
+
+<environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
