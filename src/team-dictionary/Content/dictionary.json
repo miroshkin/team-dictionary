@@ -202,5 +202,25 @@
   {
     "Name": "номенклатура",
     "Translation": "assortment"
+  },
+  {
+    "Name": "номер",
+    "Translation": "number"
+  },
+  {
+    "Name": "команда",
+    "Translation": "command"
+  },
+  {
+    "Name": "команда",
+    "Translation": "team"
+  },
+  {
+    "Name": "настройка",
+    "Translation": "setting"
+  },
+  {
+    "Name": "опись",
+    "Translation": "register"
   }
 ]
