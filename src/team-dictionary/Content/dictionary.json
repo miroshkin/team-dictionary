@@ -226,5 +226,17 @@
   {
     "Name": "комиссионные товары",
     "Translation": "commission goods"
+  },
+  {
+    "Name": "резидент",
+    "Translation": "resident"
+  },
+  {
+    "Name": "основная система налогообложения",
+    "Translation": "general taxation system"
+  },
+  {
+    "Name": "упрощенная система налогообложения",
+    "Translation": "simplified taxation system"
   }
 ]
