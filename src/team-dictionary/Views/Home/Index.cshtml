@@ -25,10 +25,10 @@
         if (Model.SearchResult.Any())
         {
             <ul class="list-group list-group-flush">
-                @foreach (var word in Model.SearchResult)
+                @foreach (var article in Model.SearchResult)
     {
             <li class="list-group-item">
-                @word.Name - @word.Translation
+                @article.Word - @article.Translation
             </li>
 }
             </ul>

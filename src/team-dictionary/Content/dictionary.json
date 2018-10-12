@@ -1,242 +1,242 @@
 ﻿[
   {
-    "Name": "поставщик",
+    "Word": "поставщик",
     "Translation": "supplier"
   },
   {
-    "Name": "клиент",
+    "Word": "клиент",
     "Translation": "client"
   },
   {
-    "Name": "контрагент",
+    "Word": "контрагент",
     "Translation": "contragent"
   },
   {
-    "Name": "проводка",
+    "Word": "проводка",
     "Translation": "provodka"
   },
   {
-    "Name": "списание",
+    "Word": "списание",
     "Translation": "decommission"
   },
   {
-    "Name": "сличительная ведомость",
+    "Word": "сличительная ведомость",
     "Translation": "collation statement"
   },
   {
-    "Name": "счет",
+    "Word": "счет",
     "Translation": "account"
   },
   {
-    "Name": "детализация",
+    "Word": "детализация",
     "Translation": "details"
   },
   {
-    "Name": "документ",
+    "Word": "документ",
     "Translation": "document"
   },
   {
-    "Name": "платеж",
+    "Word": "платеж",
     "Translation": "payment"
   },
   {
-    "Name": "сверка",
+    "Word": "сверка",
     "Translation": "sverka"
   },
   {
-    "Name": "требование",
+    "Word": "требование",
     "Translation": "trebovanie"
   },
   {
-    "Name": "возврат",
+    "Word": "возврат",
     "Translation": "return"
   },
   {
-    "Name": "расписание",
+    "Word": "расписание",
     "Translation": "schedule"
   },
   {
-    "Name": "склад",
+    "Word": "склад",
     "Translation": "warehouse"
   },
   {
-    "Name": "жалоба",
+    "Word": "жалоба",
     "Translation": "complaint"
   },
   {
-    "Name": "вес",
+    "Word": "вес",
     "Translation": "weight"
   },
   {
-    "Name": "объем",
+    "Word": "объем",
     "Translation": "volume"
   },
   {
-    "Name": "страна",
+    "Word": "страна",
     "Translation": "country"
   },
   {
-    "Name": "отчет",
+    "Word": "отчет",
     "Translation": "report"
   },
   {
-    "Name": "план",
+    "Word": "план",
     "Translation": "plan"
   },
   {
-    "Name": "транспортная компания",
+    "Word": "транспортная компания",
     "Translation": "transport company"
   },
   {
-    "Name": "безопасность",
+    "Word": "безопасность",
     "Translation": "security"
   },
   {
-    "Name": "контрафакт",
+    "Word": "контрафакт",
     "Translation": "contrafact"
   },
   {
-    "Name": "контрафакт",
+    "Word": "контрафакт",
     "Translation": "counterfeit"
   },
   {
-    "Name": "инвойс",
+    "Word": "инвойс",
     "Translation": "invoice"
   },
   {
-    "Name": "таможня",
+    "Word": "таможня",
     "Translation": "customs"
   },
   {
-    "Name": "процент",
+    "Word": "процент",
     "Translation": "percent"
   },
   {
-    "Name": "приказ",
+    "Word": "приказ",
     "Translation": "order"
   },
   {
-    "Name": "распоряжение",
+    "Word": "распоряжение",
     "Translation": "directive"
   },
   {
-    "Name": "инвентаризация",
+    "Word": "инвентаризация",
     "Translation": "inventory"
   },
   {
-    "Name": "утилизация",
+    "Word": "утилизация",
     "Translation": "utilization"
   },
   {
-    "Name": "заявитель",
+    "Word": "заявитель",
     "Translation": "issuer"
   },
   {
-    "Name": "исполнитель",
+    "Word": "исполнитель",
     "Translation": "executor"
   },
   {
-    "Name": "наблюдатель",
+    "Word": "наблюдатель",
     "Translation": "observer"
   },
   {
-    "Name": "заявка",
+    "Word": "заявка",
     "Translation": "ticket"
   },
   {
-    "Name": "бухгалтерия",
+    "Word": "бухгалтерия",
     "Translation": "account department"
   },
   {
-    "Name": "сумма",
+    "Word": "сумма",
     "Translation": "sum"
   },
   {
-    "Name": "группа",
+    "Word": "группа",
     "Translation": "group"
   },
   {
-    "Name": "списание",
+    "Word": "списание",
     "Translation": "decommissioning"
   },
   {
-    "Name": "клиент",
+    "Word": "клиент",
     "Translation": "customer"
   },
   {
-    "Name": "покупатель",
+    "Word": "покупатель",
     "Translation": "buyer"
   },
   {
-    "Name": "продавец",
+    "Word": "продавец",
     "Translation": "seller"
   },
   {
-    "Name": "юридический адрес",
+    "Word": "юридический адрес",
     "Translation": "legal address"
   },
   {
-    "Name": "адрес",
+    "Word": "адрес",
     "Translation": "address"
   },
   {
-    "Name": "грузоотправитель",
+    "Word": "грузоотправитель",
     "Translation": "consigner"
   },
   {
-    "Name": "грузополучатель",
+    "Word": "грузополучатель",
     "Translation": "consignee"
   },
   {
-    "Name": "электронная почта",
+    "Word": "электронная почта",
     "Translation": "email"
   },
   {
-    "Name": "заголовок",
+    "Word": "заголовок",
     "Translation": "header"
   },
   {
-    "Name": "оптовик",
+    "Word": "оптовик",
     "Translation": "wholesaler"
   },
   {
-    "Name": "номенклатура",
+    "Word": "номенклатура",
     "Translation": "assortment"
   },
   {
-    "Name": "номер",
+    "Word": "номер",
     "Translation": "number"
   },
   {
-    "Name": "команда",
+    "Word": "команда",
     "Translation": "command"
   },
   {
-    "Name": "команда",
+    "Word": "команда",
     "Translation": "team"
   },
   {
-    "Name": "настройка",
+    "Word": "настройка",
     "Translation": "setting"
   },
   {
-    "Name": "опись",
+    "Word": "опись",
     "Translation": "register"
   },
   {
-    "Name": "комиссионные товары",
+    "Word": "комиссионные товары",
     "Translation": "commission goods"
   },
   {
-    "Name": "резидент",
+    "Word": "резидент",
     "Translation": "resident"
   },
   {
-    "Name": "основная система налогообложения",
+    "Word": "основная система налогообложения",
     "Translation": "general taxation system"
   },
   {
-    "Name": "упрощенная система налогообложения",
+    "Word": "упрощенная система налогообложения",
     "Translation": "simplified taxation system"
   }
 ]

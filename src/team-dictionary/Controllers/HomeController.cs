@@ -14,7 +14,7 @@ namespace team_dictionary.Controllers
 {
     public class HomeController : Controller
     {
-        private WordsRepository _wordsRepository = null;
+        private ArticlesRepository _articlesRepository = null;
         private readonly IHostingEnvironment _hostingEnvironment;
         public HomeController(IHostingEnvironment hostingEnvironment)
         {
@@ -23,7 +23,7 @@ namespace team_dictionary.Controllers
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             var enc1251 = Encoding.GetEncoding(1251);
             var JSON = System.IO.File.ReadAllText(contentRootPath + "/Content/dictionary.json", enc1251);
-            _wordsRepository = new WordsRepository(JSON);
+            _articlesRepository = new ArticlesRepository(JSON);
         }
 
         public IActionResult Index()
@@ -39,14 +39,14 @@ namespace team_dictionary.Controllers
 
             if (String.IsNullOrEmpty(model.SearchString))
             {
-                model.SearchResult = new Word[0];
+                model.SearchResult = new Article[0];
             }
             else
             {
                 model.SearchResult =
-                    _wordsRepository.GetWords()
+                    _articlesRepository.GetArticles()
                         .Where(c =>
-                            c.Name.ToUpper().Contains(searchString.ToUpper()));
+                            c.Word.ToUpper().Contains(searchString.ToUpper()));
             }
 
             return View(model);
