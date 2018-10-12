@@ -43,10 +43,9 @@ namespace team_dictionary.Controllers
             }
             else
             {
-                model.SearchResult =
-                    _articlesRepository.GetArticles()
-                        .Where(c =>
-                            c.Word.ToUpper().Contains(searchString.ToUpper()));
+                model.SearchResult = _articlesRepository.GetArticles().Where(p =>
+                    CultureInfo.CurrentCulture.CompareInfo.IndexOf
+                        (p.Word, searchString, CompareOptions.IgnoreCase) >= 0).ToList();
             }
 
             return View(model);
