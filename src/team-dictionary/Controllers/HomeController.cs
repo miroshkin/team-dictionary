@@ -23,7 +23,7 @@ namespace team_dictionary.Controllers
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             var enc1251 = Encoding.GetEncoding(1251);
             var JSON = System.IO.File.ReadAllText(contentRootPath + "/Content/dictionary.json", enc1251);
-            _articlesRepository = new ArticlesRepository(JSON);
+            _articlesRepository = new ArticlesRepository();
         }
 
         public IActionResult Index()

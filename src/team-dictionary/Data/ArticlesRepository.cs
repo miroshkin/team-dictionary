@@ -3,28 +3,32 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace team_dictionary.Data
 {
     public class ArticlesRepository
     {
+        private TeamDictionaryContext _context;
+
         private List<Article> _list;
 
-        public ArticlesRepository(string json)
+        public ArticlesRepository()
         {
-            //Get dictionary from dictionary
-            _list = JsonConvert.DeserializeObject<List<Article>>(json);
-            
-            //Add reverse translation
-            List<Article> listCopy = _list.GetRange(0, _list.Count);
-            listCopy.ForEach(c => _list.Add(new Article(c.Translation, c.Word)));
+            _context = new TeamDictionaryContext(new DbContextOptions<TeamDictionaryContext>());
         }
 
         public List<Article> GetArticles()
         {
-            //Return result sorted ascending
-            return _list.OrderBy(x => x.Word).ToList();
+            var articles = _context.Articles.ToList();
+            foreach (var article in articles)
+            {
+                article.Translations = _context.Translations.Where(t => t.ArticleId == article.ArticleId).ToList();
+                article.SqlQueries = _context.SqlQueries.Where(t => t.ArticleId == article.ArticleId).ToList();
+            }
+
+            return articles;
         }
     }
 }

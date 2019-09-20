@@ -27,9 +27,22 @@
             <ul class="list-group list-group-flush">
                 @foreach (var article in Model.SearchResult)
     {
-            <li class="list-group-item">
-                <strong>@article.Word</strong> - @article.Translation
-            </li>
+        @foreach (var translation in article.Translations)
+         {
+                <li class="list-group-item">
+                    <strong>@article.Word</strong> - @translation.Text @if (translation.BestTranslation)
+                    {<span>&#10032;</span>}
+                    <br />
+                    @foreach (var query in article.SqlQueries)
+                    {
+                        <div>@query.Name</div>
+                        <div>@query.Text</div>
+                    }
+
+
+                </li>
+         }
+        
 }
             </ul>
 }
